@@ -4,5 +4,144 @@ Colors:
 #E56385;
 #00B2A9;
 #75726C;
-#EDE9E2
+#EDE9E2;
 */
+
+*{
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+}
+/*Estilo de header*/
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+
+/*Estilos del nav*/
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #E54E79;
+}
+ul li{
+	display: inline-block;
+	top: 0;
+    right: 0;
+    float: right;
+    margin-right: 97px;
+}
+ul li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 26px;
+	text-decoration: none;
+}
+li a:hover, .dropdown:hover, .dropbtn:hover{
+	background-color: #E56385;
+	color: #EDE9E2;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #E56385;
+	min-width: 180px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+	z-index: 1;
+}
+.dropdown-content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+}
+.dropdown-content a:hover {
+	background-color: #E56385;
+}
+.dropdown:hover .dropdown-content{
+	display:block;
+}
+
+/*Logo*/
+.logo{
+	left: 0;
+	top: -4px;
+	width: 70px;
+	height: 74px;
+	padding: 0.4% 2%;
+	text-align: left;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-image: url(../img/logo-white2.png);
+	background-size: 70px, 10px;
+	position: absolute;
+}
+
+/*Section*/
+section{
+	padding-top: 60px;
+	position: relative;
+}
+.imagen{
+	background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
+	background-size: cover;
+    height: 600px;
+}
+
+.contenedor{
+	width: 480px;
+	height: 306px;
+	background-color: #EDE9E2;
+	position: absolute;
+	bottom: 172px;
+    right: 0;
+    display: block; 
+}
+
+button.boton-corazon{
+    display: block;
+    margin: 0 auto;
+    padding: 12px 25px;
+    color: white;
+    border-radius: 12px;
+    background-color: #E54E79;
+    font-size: 18px;
+    border: transparent;
+}
+
+h1 {
+    padding: 14px 72px;
+    color: #00B2A9;
+}
+
+h2 {
+    padding: 0px 100px;
+    font-size: 20px;
+    color:#75726C;
+}
+input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+    width: 5px 113px;
+    height: 19px;
+    margin: 31px;
+    padding: 4px 114px;
+    background-color: #EDE9E2;
+    font-size: 18px;
+}
+p{
+	font-size: 15px;
+	color:#75726C;
+	padding: 8px 30px;
+
+}
