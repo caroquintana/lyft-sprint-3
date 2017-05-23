@@ -115,7 +115,16 @@ button.boton-corazon{
     background-color: #E54E79;
     font-size: 18px;
     border: transparent;
+    outline: none;
 }
+button:hover, .boton-play:hover{
+ background: rgba(0,0,0,0);
+ color: #3a7999;
+ box-shadow: inset 0 0 0 3px #75726C;
+ cursor: pointer;
+}
+
+
 
 h1 {
     padding: 14px 72px;
@@ -145,3 +154,69 @@ p{
 	padding: 8px 30px;
 
 }
+/*PLAY WITH LYFT*/
+.auto{
+	background-color: #00B2A9;
+	height: 400px;
+}
+.play{
+	display: block;
+	background-color: #EDE9E2;
+}
+
+h3{
+	text-align: center;
+	font-size: 40px;
+	color:#75726C;
+}
+.coordenadas{
+	width: 80%;
+    text-align: center;
+    height: 272px;
+    background-color: #EDE9E2;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+button.boton-play {
+	display: block;
+    width: 830px;
+    padding: 8px;
+    color: white;
+    border-radius: 12px;
+    background-color: #00B2A9;
+    font-size: 18px;
+    margin: 0 auto;
+    outline: none;
+    border-color: transparent;
+}
+.prefooter{
+	background-color: #75726C;
+	height: 90px;
+
+}
+h4{
+	color: #EDE9E2;
+	padding-left: 56px;
+	font-size: 29px;
+
+}
+.social {
+    position: absolute;
+    bottom: 51px;
+    display: block;
+    font-size: 41px;
+    right: 140px;
+}
+
+i.fa.fa-facebook, i.fa.fa-twitter, i.fa.fa-pinterest, i.fa.fa-youtube{
+	color: white;
+}
+
+i.fa.fa-facebook:focus, i.fa.fa-twitter:focus, i.fa.fa-pinterest:focus, i.fa.fa-youtube:focus{
+	color: #E54E79;
+}
+
+i.fa.fa-facebook:hover, i.fa.fa-twitter:hover, i.fa.fa-pinterest:hover, i.fa.fa-youtube:hover{
+	color: #E54E79;
+}
+
