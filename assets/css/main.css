@@ -93,6 +93,7 @@ section{
 .imagen{
 	background-image: url(../img/cropped-Lyft-Promo-Codes-car-1.jpg);
 	background-size: cover;
+    background-attachment: fixed;
     height: 600px;
 }
 
@@ -219,4 +220,23 @@ i.fa.fa-facebook:focus, i.fa.fa-twitter:focus, i.fa.fa-pinterest:focus, i.fa.fa-
 i.fa.fa-facebook:hover, i.fa.fa-twitter:hover, i.fa.fa-pinterest:hover, i.fa.fa-youtube:hover{
 	color: #E54E79;
 }
+/* footer */
+footer{
+	background-color: #00B2A9;
+}
+.foot{
+	font-size: 17px;
+	color: white;
+}
 
+/* hola */
+
+.tablero {
+    background-color: #EDE9E2;
+	width: 1052px;
+    height: 357px;
+    bottom: 63px;
+    left: 100px;
+    display: block;
+    position: absolute;
+}
