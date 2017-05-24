@@ -71,13 +71,11 @@ botonForm.addEventListener("click", validar);
 
 var botonStar = document.getElementById("navicon");
 
-
 var muestrameVentana = function(){
     var crearDiv = document.createElement("div");
     crearDiv.setAttribute("class", "tablero");
     document.getElementsByClassName("auto")[0].appendChild(crearDiv);
     };
-
 
 botonStar.addEventListener("click", muestrameVentana);
 

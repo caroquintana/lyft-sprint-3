@@ -240,3 +240,7 @@ footer{
     display: block;
     position: absolute;
 }
+
+input.coordenadasx, input.coordenadasy {
+    padding: 4px 80px;
+}
